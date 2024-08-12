@@ -7,7 +7,7 @@
 > Este projeto é desenvolvido para o curso de Desenvolvedor Web Full Stack pelo o Instituto Euvaldo Lodi (IEL - CE) que tem como objetivo de capacitar as pesssoas para a área tecnológica.
 
 ## Tecnologias Utilizadas
-
+- **Node.js:** Plataforma de desenvolvimento que permite executar código Javascript no lado do servidor.
 - **React:** Utilizado como biblioteca principal para a construção da interface.
 - **Vite:** Ferramenta de construção e desenvolvimento rápido para aplicações React.
 
