@@ -15,7 +15,7 @@ const Header = () => {
     const menuRef = useRef(null);
     const cartRef = useRef(null);
     const handleClick = () => {
-        window.location.href = 'http://localhost:5173/entrar';
+        window.location.href = '/entrar';
     };
     const handleHamburgerClick = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -51,7 +51,7 @@ const Header = () => {
                 <Logo />
                 <SearchBar />
                 <p className='cadastrar'>
-                    <a className='cadastro' href="http://localhost:5173/cadastrar">Cadastre-se</a>
+                    <a className='cadastro' href="/cadastrar">Cadastre-se</a>
                 </p>
                 <button onClick={handleClick} className='entrar'>Entrar</button>
                 <div className="cart-container" onClick={handleCartClick} ref={cartRef}>
@@ -111,7 +111,7 @@ const Header = () => {
                     <div className="menu-buttons">
                         <button onClick={handleClick} className='menu-login'>Entrar</button>
                         <p className='menu-register'>
-                            <a className='cadastro' href="http://localhost:5173/cadastrar">Cadastre-se</a>
+                            <a className='cadastro' href="/cadastrar">Cadastre-se</a>
                         </p>
                     </div>
                 </div>

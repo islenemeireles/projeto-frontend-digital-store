@@ -1,17 +1,17 @@
 const clickVerCamisetas = () => {
-    window.location.href = 'http://localhost:5173/camisetas';
+    window.location.href = '/camisetas';
 };
 const clickVerCalcas = () => {
-    window.location.href = 'http://localhost:5173/calcas';
+    window.location.href = '/calcas';
 };
 const clickVerBones = () => {
-    window.location.href = 'http://localhost:5173/bones';
+    window.location.href = '/bones';
 };
 const clickVerHeadphones = () => {
-    window.location.href = 'http://localhost:5173/headphones';
+    window.location.href = '/headphones';
 };
 const clickVerTenis = () => {
-    window.location.href = 'http://localhost:5173/produtos';
+    window.location.href = '/produtos';
 };
 const IconsBall = () => {
     return (

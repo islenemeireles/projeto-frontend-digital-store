@@ -8,7 +8,7 @@ const data = [
     { id: '4', image: 'https://www.pngall.com/wp-content/uploads/2/White-Sneakers-PNG-Clipart.png' }
 ];
 const clickVerOferta = () => {
-    window.location.href = 'http://localhost:5173/produtos';
+    window.location.href = '/produtos';
 };
 const HomePage = () => {
     return (

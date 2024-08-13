@@ -16,7 +16,7 @@ const productData = [
 ];
 
 const clickVerOferta2 = () => {
-    window.location.href = 'http://localhost:5173/produtos/0';
+    window.location.href = '/produtos/0';
 };
 const Section = () => {
     return (

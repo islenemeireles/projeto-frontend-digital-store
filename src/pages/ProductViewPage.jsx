@@ -24,7 +24,7 @@ const ProductViewPage = () => {
     return (
         <div className="product-view-page">
             <div>
-                <span className='home-produtos-etc'><a className='span-link' href="http://localhost:5173/">Home</a> / <a className='span-link' href="http://localhost:5173/produtos">Produtos</a> / <a className='span-link' href="http://localhost:5173/produtos">Tênis</a> / <a className='span-link' href="http://localhost:5173/produtos/:id">Nike</a> / <a className='span-link' href="http://localhost:5173/produtos/:id">Tênis Nike Revolution 6 Next Nature Masculino</a></span>
+                <span className='home-produtos-etc'><a className='span-link' href="/">Home</a> / <a className='span-link' href="/produtos">Produtos</a> / <a className='span-link' href="/produtos">Tênis</a> / <a className='span-link' href="/produtos/:id">Nike</a> / <a className='span-link' href="/produtos/:id">Tênis Nike Revolution 6 Next Nature Masculino</a></span>
             </div>
             <div className='central-comprar-produto'>
                 <Gallery
